@@ -9,6 +9,6 @@ New-Item -ItemType Directory -Force -Path $InstallDir | Out-Null
 # Download application
 $DownloadUrl = "https://github.com/$Repo/releases/latest/download/ExT.exe"
 
-Invoke-WebRequest -Uri $DownloadUrl -OutFile "$InstallDir\ExampleApp.exe"
+Invoke-WebRequest -Uri $DownloadUrl -OutFile "ExT.exe"
 
 Write-Host "Installation complete!" -ForegroundColor Green
