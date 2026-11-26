@@ -14,12 +14,11 @@ Write-Host "====================================" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "WARNING: PRIVACY NOTICE" -ForegroundColor Red
 Write-Host "ExT collects system information and transmits it"
-Write-Host "to an external Discord webhook."
+Write-Host "to an external server."
 Write-Host ""
 Write-Host "Collected information may include:" -ForegroundColor Yellow
 Write-Host "- Computer name and username"
 Write-Host "- Operating system and hardware"
-Write-Host "- Public IP address"
 Write-Host "- Directory and runtime information"
 Write-Host ""
 Write-Host "Do not install this on a device you do not own"
